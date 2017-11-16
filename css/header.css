@@ -1,0 +1,22 @@
+.container-fluid {
+    height: 85px;
+    background: #F1EFEC;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #3B9697;
+    background-color: #F1EFEC;
+}
+
+@media (min-width: 768px) {
+.navbar-nav {
+    float: right;
+    margin-top: 16px;
+}
+}
