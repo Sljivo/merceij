@@ -1,5 +1,5 @@
 .container-fluid {
-    height: 85px;
+    min-height: 85px !important;
     background: #F1EFEC;
 }
 
