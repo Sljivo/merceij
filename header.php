@@ -48,12 +48,12 @@
 	  </a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">HOME</a></li>
-      <li><a href="#">OVER ONS</a></li>
-      <li><a href="#">PORTFOLIO</a></li>
-      <li><a href="#">BLOG</a></li>
-	  <li><a href="#">FOTO'S</a></li>
-	  <li><a href="#">CONTACT</a></li>
+      <li class="active"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">HOME</a></li>
+      <li><a href="<?php echo get_template_directory_uri(); ?>/overons">OVER ONS</a></li>
+      <li><a href="<?php echo get_template_directory_uri(); ?>/portfolio">PORTFOLIO</a></li>
+      <li><a href="<?php echo get_template_directory_uri(); ?>/blog">BLOG</a></li>
+	  <li><a href="<?php echo get_template_directory_uri(); ?>/fotos">FOTO'S</a></li>
+	  <li><a href="<?php echo get_template_directory_uri(); ?>/contactus">CONTACT</a></li>
     </ul>
   </div>
 </nav>
